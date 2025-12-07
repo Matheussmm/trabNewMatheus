@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a href="#sobre">Sobre mim</a>
+            <a href="#formacao">Formação</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+            <button id="btnTema">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="secao">
+            <h2>Sobre mim</h2>
+            <p>Olá, sou Matheus Melo estudante de Ciência de dados, e atualmente estou empregado como estagiário de BI. Eu sou resposável por fazer atualizações de dados em horários pontuais para manter a empresa com os dados mais fresco possível, além disso presto suporte relativo a dashboard, fazendo ajustes nos dados ou até mesmo explicando como funciona as telas. Quero seguir na carreira da área de BI, essa área vai além do conhecimento de ferramentas e engloba saber de como o negócio da empresa funciona, assim podendo tirar melhores insights para tomadas de decisões. </p>
+        </section>
+
+        <section id="formacao" class="secao">
+            <h2>Formação</h2>
+            <ul>
+                <li>Análise e desenlvimento de Sistemas</li>
+                <li>Inglês intermediário</li>
+                <li>Ciência de dados</li>
+                <li>Microsoft Power BI para Busineess Intelligence e Data Science </li>
+            </ul>
+        </section>
+
+        <section id="portfolio" class="secao">
+            <h2>Portfólio</h2>
+            <ul>
+                <li><a href="#">https://github.com/Matheussmm/matheus-trab/blob/main/calculadora.py</a></li>
+                <li><a href="#">https://github.com/Matheussmm/matheus-trab/blob/main/par_ou_impar.py</a></li>
+            </ul>
+        </section>
+
+        <section id="contato" class="secao">
+            <h2>Contato</h2>
+            <form id="formContato">
+                <label>Nome:</label>
+                <input type="text" id="nome">
+                <label>Email:</label>
+                <input type="email" id="email">
+                <label>Mensagem:</label>
+                <textarea id="mensagem" rows="5"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="msgSucesso" class="hidden">Mensagem enviada com sucesso!</p>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
