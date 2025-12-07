@@ -1,0 +1,17 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f4f4;color:#333;scroll-behavior:smooth;}
+.menu{position:fixed;top:0;width:100%;background:#222;padding:15px;display:flex;justify-content:center;gap:25px;z-index:1000;}
+.menu a{color:white;text-decoration:none;font-size:18px;}
+.menu a:hover{color:#00d0ff;}
+#btnTema{margin-left:auto;margin-right:20px;cursor:pointer;background:white;border:none;padding:5px 10px;font-size:18px;border-radius:5px;}
+.secao{padding:80px 20px;margin-top:60px;background:white;width:90%;margin-left:auto;margin-right:auto;border-radius:8px;}
+form{display:flex;flex-direction:column;gap:10px;max-width:500px;}
+input,textarea{padding:10px;border:1px solid #ccc;border-radius:5px;}
+button{padding:12px;background:#222;color:white;border:none;cursor:pointer;border-radius:8px;font-size:16px;}
+button:hover{background:#444;}
+.hidden{display:none;}
+#msgSucesso{margin-top:15px;font-weight:bold;color:green;}
+.dark{background:#1a1a1a;color:white;}
+.dark .secao{background:#333;}
+.dark .menu{background:#111;}
+.dark button{background:#555;}
